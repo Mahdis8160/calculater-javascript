@@ -1,31 +1,45 @@
-body {
-    background-color: black;
+.num{
+    background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 3px;
+}
+.opration{
+    background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 28px;
+}
+.show-result{
+    width: 226px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 10px;
+    color: white;
+    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
+}
+.base-section{
+    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
-.show-result {
-    height: 5rem;
-    width: 20rem;
-    border: none;
-    border-radius: 25px;
-
+.main{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+    background-color:#323433;
+    width: 233px;
+    height: 278px;
+    padding: 10px;
+    border-radius: 15px;
 }
-.gray {
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
-    background-color: gray;
-    border: none;
-
-}
-.orenge {
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
-    background-color: orange;
-    color: aliceblue;
-    border: none;
-}
-.first-row {
-    margin: 2rem 2rem;
-}
-    
